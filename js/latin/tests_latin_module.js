@@ -20,5 +20,5 @@
 import { withLatinNoun1Tests } from './tests_latin_noun_1.js';
 import { withLatinNoun2Tests } from './tests_latin_noun_2.js';
 
-withLatinNoun1Tests();
-withLatinNoun2Tests();
+withLatinNoun1Tests(); // Latin nouns of the first declension
+withLatinNoun2Tests(); // Latin nouns of the second declension
