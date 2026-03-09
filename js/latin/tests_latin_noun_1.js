@@ -21,14 +21,6 @@ export function withLatinNoun1Tests() {
 	data.data.push(
 		// singular		
 		{
-			"name": "Девочка",
-			"id": "latin1n_puella_ns",
-			"grade": "latin_noun",
-			"letters": ["1"],
-			"full": "Puella cantat. [Девочка поёт.]",
-			"test": "Puell<…> cantat. [Девочка поёт.]"
-		},
-		{
 			"name": "Виллы",
 			"id": "latin1n_villa_np",
 			"grade": "latin_noun",
@@ -50,7 +42,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricola in agro laborat. — Земледелец работает в поле.",
-			"test": "<…> Agricola in agro laborat. — Земледелец работает в поле.",
+			"test": "Agricol<…> in agr<…> laborat. — Земледелец работает в поле.",
 		},
 		{
 			"name": "Поэт пишет стихи.",
@@ -58,7 +50,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poeta carmina scribit. — Поэт пишет стихи.",
-			"test": "<…> Poeta carmina scribit. — Поэт пишет стихи.",
+			"test": "Poet<…> carmin<…> scribit. — Поэт пишет стихи.",
 		},
 		{
 			"name": "Земля велика.",
@@ -66,7 +58,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terra est magna. — Земля велика.",
-			"test": "<…> Terra est magna. — Земля велика.",
+			"test": "Terr<…> est magn<…>. — Земля велика.",
 		},
 		{
 			"name": "Вода холодная.",
@@ -74,7 +66,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aqua frigida est. — Вода холодная.",
-			"test": "<…> Aqua frigida est. — Вода холодная.",
+			"test": "Aqu<…> frigid<…> est. — Вода холодная.",
 		},
 		{
 			"name": "Девочка поёт.",
@@ -82,7 +74,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puella cantat. — Девочка поёт.",
-			"test": "<…> Puella cantat. — Девочка поёт.",
+			"test": "Puell<…> cantat. — Девочка поёт.",
 		},
 		{
 			"name": "Звезда светит.",
@@ -90,7 +82,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stella lucet. — Звезда светит.",
-			"test": "<…> Stella lucet. — Звезда светит.",
+			"test": "Stell<…> lucet. — Звезда светит.",
 		},
 		{
 			"name": "Вилла земледельца прекрасна.",
@@ -98,7 +90,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Villa agricolae pulchra est. — Вилла земледельца прекрасна.",
-			"test": "<…> Villa agricolae pulchra est. — Вилла земледельца прекрасна.",
+			"test": "Vill<…> agricol<…> pulchr<…> est. — Вилла земледельца прекрасна.",
 		},
 		{
 			"name": "Книга поэта известна.",
@@ -106,7 +98,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Liber poetae notus est. — Книга поэта известна.",
-			"test": "<…> Liber poetae notus est. — Книга поэта известна.",
+			"test": "Liber poet<…> notus est. — Книга поэта известна.",
 		},
 		{
 			"name": "Цвет воды голубой.",
@@ -114,7 +106,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Color aquae caeruleus est. — Цвет воды голубой.",
-			"test": "<…> Color aquae caeruleus est. — Цвет воды голубой.",
+			"test": "Color aqu<…> caeruleus est. — Цвет воды голубой.",
 		},
 		{
 			"name": "Название земли — Греция.",
@@ -122,7 +114,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Nomen terrae Graecia est. — Название земли — Греция.",
-			"test": "<…> Nomen terrae Graecia est. — Название земли — Греция.",
+			"test": "Nomen terr<…> Graecia est. — Название земли — Греция.",
 		},
 		{
 			"name": "Мать девочки очень мудрая.",
@@ -130,7 +122,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Mater puellae sapientissima est. — Мать девочки очень мудрая.",
-			"test": "<…> Mater puellae sapientissima est. — Мать девочки очень мудрая.",
+			"test": "Mater puell<…> sapientissima est. — Мать девочки очень мудрая.",
 		},
 		{
 			"name": "Свет звезды яркий.",
@@ -138,7 +130,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Lux stellae clara est. — Свет звезды яркий.",
-			"test": "<…> Lux stellae clara est. — Свет звезды яркий.",
+			"test": "Lux stell<…> clara est. — Свет звезды яркий.",
 		},
 		{
 			"name": "Семья земледельца большая.",
@@ -146,7 +138,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Familia agricolae magna est. — Семья земледельца большая.",
-			"test": "<…> Familia agricolae magna est. — Семья земледельца большая.",
+			"test": "Familia agricol<…> magna est. — Семья земледельца большая.",
 		},
 		{
 			"name": "Стихи поэта прекрасны.",
@@ -154,7 +146,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Versus poetae pulchri sunt. — Стихи поэта прекрасны.",
-			"test": "<…> Versus poetae pulchri sunt. — Стихи поэта прекрасны.",
+			"test": "Versus poet<…> pulchri sunt. — Стихи поэта прекрасны.",
 		},
 		{
 			"name": "Добродетель девочки восхваляется.",
@@ -162,7 +154,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Virtus puellae laudatur. — Добродетель девочки восхваляется.",
-			"test": "<…> Virtus puellae laudatur. — Добродетель девочки восхваляется.",
+			"test": "Virtus puell<…> laudatur. — Добродетель девочки восхваляется.",
 		},
 		{
 			"name": "Брат девочки — юноша.",
@@ -170,7 +162,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Frater puellae iuvenis est. — Брат девочки — юноша.",
-			"test": "<…> Frater puellae iuvenis est. — Брат девочки — юноша.",
+			"test": "Frater puell<…> iuvenis est. — Брат девочки — юноша.",
 		},
 		{
 			"name": "Начало земли неопределённо.",
@@ -178,7 +170,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Initium terrae incertum est. — Начало земли неопределённо.",
-			"test": "<…> Initium terrae incertum est. — Начало земли неопределённо.",
+			"test": "Initium terr<…> incertum est. — Начало земли неопределённо.",
 		},
 		{
 			"name": "Название воды — Тибр.",
@@ -186,7 +178,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Nomen aquae Tiberis est. — Название воды — Тибр.",
-			"test": "<…> Nomen aquae Tiberis est. — Название воды — Тибр.",
+			"test": "Nomen aqu<…> Tiberis est. — Название воды — Тибр.",
 		},
 		{
 			"name": "Дом земледельца находится возле леса.",
@@ -194,7 +186,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Domus agricolae prope silvam est. — Дом земледельца находится возле леса.",
-			"test": "<…> Domus agricolae prope silvam est. — Дом земледельца находится возле леса.",
+			"test": "Domus agricol<…> prope silvam est. — Дом земледельца находится возле леса.",
 		},
 		{
 			"name": "Стихи поэта находятся в книге.",
@@ -202,7 +194,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Carmina poetae in libro sunt. — Стихи поэта находятся в книге.",
-			"test": "<…> Carmina poetae in libro sunt. — Стихи поэта находятся в книге.",
+			"test": "Carmina poet<…> in libro sunt. — Стихи поэта находятся в книге.",
 		},
 		{
 			"name": "Подруга девочки живёт в Риме.",
@@ -210,7 +202,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Amica puellae Romae habitat. — Подруга девочки живёт в Риме.",
-			"test": "<…> Amica puellae Romae habitat. — Подруга девочки живёт в Риме.",
+			"test": "Amica puell<…> Romae habitat. — Подруга девочки живёт в Риме.",
 		},
 		{
 			"name": "Знак звезды виден на небе.",
@@ -218,7 +210,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Signum stellae in caelo videtur. — Знак звезды виден на небе.",
-			"test": "<…> Signum stellae in caelo videtur. — Знак звезды виден на небе.",
+			"test": "Signum stell<…> in caelo videtur. — Знак звезды виден на небе.",
 		},
 		{
 			"name": "Я посылаю дары земледельцу.",
@@ -226,7 +218,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Dona agricolae mitto. — Я посылаю дары земледельцу.",
-			"test": "<…> Dona agricolae mitto. — Я посылаю дары земледельцу.",
+			"test": "Dona agricol<…> mitto. — Я посылаю дары земледельцу.",
 		},
 		{
 			"name": "Я даю книги поэту.",
@@ -234,7 +226,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Libros poetae do. — Я даю книги поэту.",
-			"test": "<…> Libros poetae do. — Я даю книги поэту.",
+			"test": "Libros poet<…> do. — Я даю книги поэту.",
 		},
 		{
 			"name": "Вода даётся земле.",
@@ -242,7 +234,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aqua terrae datur. — Вода даётся земле.",
-			"test": "<…> Aqua terrae datur. — Вода даётся земле.",
+			"test": "Aqua terr<…> datur. — Вода даётся земле.",
 		},
 		{
 			"name": "Я дарю розы девочке.",
@@ -250,7 +242,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Rosas puellae dono. — Я дарю розы девочке.",
-			"test": "<…> Rosas puellae dono. — Я дарю розы девочке.",
+			"test": "Rosas puell<…> dono. — Я дарю розы девочке.",
 		},
 		{
 			"name": "Мир для девочки — наилучший.",
@@ -258,7 +250,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Pax puellae optima est. — Мир для девочки — наилучший.",
-			"test": "<…> Pax puellae optima est. — Мир для девочки — наилучший.",
+			"test": "Pax puell<…> optima est. — Мир для девочки — наилучший.",
 		},
 		{
 			"name": "Помощь звезды не нужна.",
@@ -266,7 +258,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Auxilium stellae non opus est. — Помощь звезды не нужна.",
-			"test": "<…> Auxilium stellae non opus est. — Помощь звезды не нужна.",
+			"test": "Auxilium stell<…> non opus est. — Помощь звезды не нужна.",
 		},
 		{
 			"name": "Дар земледельцу маленький.",
@@ -274,7 +266,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Donum agricolae parvum est. — Дар земледельцу маленький.",
-			"test": "<…> Donum agricolae parvum est. — Дар земледельцу маленький.",
+			"test": "Donum agricol<…> parvum est. — Дар земледельцу маленький.",
 		},
 		{
 			"name": "Совет поэта очень полезен.",
@@ -282,7 +274,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Consilium poetae utilissimum est. — Совет поэта очень полезен.",
-			"test": "<…> Consilium poetae utilissimum est. — Совет поэта очень полезен.",
+			"test": "Consilium poet<…> utilissimum est. — Совет поэта очень полезен.",
 		},
 		{
 			"name": "Помощь девочке необходима.",
@@ -290,7 +282,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Auxilium puellae necessarium est. — Помощь девочке необходима.",
-			"test": "<…> Auxilium puellae necessarium est. — Помощь девочке необходима.",
+			"test": "Auxilium puell<…> necessarium est. — Помощь девочке необходима.",
 		},
 		{
 			"name": "Книга девочки новая.",
@@ -298,7 +290,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Liber puellae novus est. — Книга девочки новая.",
-			"test": "<…> Liber puellae novus est. — Книга девочки новая.",
+			"test": "Liber puell<…> novus est. — Книга девочки новая.",
 		},
 		{
 			"name": "Мы желаем здоровья земле.",
@@ -306,7 +298,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Salutem terrae optamus. — Мы желаем здоровья земле.",
-			"test": "<…> Salutem terrae optamus. — Мы желаем здоровья земле.",
+			"test": "Salutem terr<…> optamus. — Мы желаем здоровья земле.",
 		},
 		{
 			"name": "Я дарю розы воде (как символу).",
@@ -314,7 +306,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Rosas aquae dono. — Я дарю розы воде (как символу).",
-			"test": "<…> Rosas aquae dono. — Я дарю розы воде (как символу).",
+			"test": "Rosas aqu<…> dono. — Я дарю розы воде (как символу).",
 		},
 		{
 			"name": "Слова поэта говорятся ученикам.",
@@ -322,7 +314,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Verba poetae discipulis dicuntur. — Слова поэта говорятся ученикам.",
-			"test": "<…> Verba poetae discipulis dicuntur. — Слова поэта говорятся ученикам.",
+			"test": "Verba poet<…> discipulis dicuntur. — Слова поэта говорятся ученикам.",
 		},
 		{
 			"name": "Награда земледельцу большая.",
@@ -330,7 +322,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Praemium agricolae magnum est. — Награда земледельцу большая.",
-			"test": "<…> Praemium agricolae magnum est. — Награда земледельцу большая.",
+			"test": "Praemium agricol<…> magnum est. — Награда земледельцу большая.",
 		},
 		{
 			"name": "Письмо девочке отправлено другом.",
@@ -338,7 +330,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Epistula puellae ab amico missa est. — Письмо девочке отправлено другом.",
-			"test": "<…> Epistula puellae ab amico missa est. — Письмо девочке отправлено другом.",
+			"test": "Epistula puell<…> ab amico missa est. — Письмо девочке отправлено другом.",
 		},
 		{
 			"name": "Звезде возносятся благодарности.",
@@ -346,7 +338,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Gratiae stellae aguntur. — Звезде возносятся благодарности.",
-			"test": "<…> Gratiae stellae aguntur. — Звезде возносятся благодарности.",
+			"test": "Gratiae stell<…> aguntur. — Звезде возносятся благодарности.",
 		},
 		{
 			"name": "Я вижу земледельца в поле.",
@@ -354,7 +346,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolam in agro video. — Я вижу земледельца в поле.",
-			"test": "<…> Agricolam in agro video. — Я вижу земледельца в поле.",
+			"test": "Agricol<…> in agr<…> video. — Я вижу земледельца в поле.",
 		},
 		{
 			"name": "Я хвалю поэта.",
@@ -362,7 +354,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetam laudo. — Я хвалю поэта.",
-			"test": "<…> Poetam laudo. — Я хвалю поэта.",
+			"test": "Poet<…> laudo. — Я хвалю поэта.",
 		},
 		{
 			"name": "Мы пьём воду.",
@@ -370,7 +362,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquam bibimus. — Мы пьём воду.",
-			"test": "<…> Aquam bibimus. — Мы пьём воду.",
+			"test": "Aqu<…> bibimus. — Мы пьём воду.",
 		},
 		{
 			"name": "Мы любим землю.",
@@ -378,7 +370,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terram amamus. — Мы любим землю.",
-			"test": "<…> Terram amamus. — Мы любим землю.",
+			"test": "Terr<…> amamus. — Мы любим землю.",
 		},
 		{
 			"name": "Я зову девочку.",
@@ -386,7 +378,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellam voco. — Я зову девочку.",
-			"test": "<…> Puellam voco. — Я зову девочку.",
+			"test": "Puell<…> voco. — Я зову девочку.",
 		},
 		{
 			"name": "Я вижу звезду на небе.",
@@ -394,7 +386,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellam in caelo video. — Я вижу звезду на небе.",
-			"test": "<…> Stellam in caelo video. — Я вижу звезду на небе.",
+			"test": "Stell<…> in cael<…> video. — Я вижу звезду на небе.",
 		},
 		{
 			"name": "Я вижу земледельца на дороге.",
@@ -402,7 +394,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolam in via video. — Я вижу земледельца на дороге.",
-			"test": "<…> Agricolam in via video. — Я вижу земледельца на дороге.",
+			"test": "Agricol<…> in vi<…> video. — Я вижу земледельца на дороге.",
 		},
 		{
 			"name": "Я слышал поэта на форуме.",
@@ -410,7 +402,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetam in foro audivi. — Я слышал поэта на форуме.",
-			"test": "<…> Poetam in foro audivi. — Я слышал поэта на форуме.",
+			"test": "Poet<…> in for<…> audivi. — Я слышал поэта на форуме.",
 		},
 		{
 			"name": "Он пьёт холодную воду.",
@@ -418,7 +410,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquam frigidam bibit. — Он пьёт холодную воду.",
-			"test": "<…> Aquam frigidam bibit. — Он пьёт холодную воду.",
+			"test": "Aqu<…> frigid<…> bibit. — Он пьёт холодную воду.",
 		},
 		{
 			"name": "Мы находим новую землю.",
@@ -426,7 +418,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terram novam invenimus. — Мы находим новую землю.",
-			"test": "<…> Terram novam invenimus. — Мы находим новую землю.",
+			"test": "Terr<…> nov<…> invenimus. — Мы находим новую землю.",
 		},
 		{
 			"name": "Я позвал девочку в саду.",
@@ -434,7 +426,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellam in horto vocavi. — Я позвал девочку в саду.",
-			"test": "<…> Puellam in horto vocavi. — Я позвал девочку в саду.",
+			"test": "Puell<…> in hort<…> vocavi. — Я позвал девочку в саду.",
 		},
 		{
 			"name": "Мы наблюдаем большую звезду на небе.",
@@ -442,7 +434,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellam magnam in caelo spectamus. — Мы наблюдаем большую звезду на небе.",
-			"test": "<…> Stellam magnam in caelo spectamus. — Мы наблюдаем большую звезду на небе.",
+			"test": "Stell<…> magn<…> in cael<…> spectamus. — Мы наблюдаем большую звезду на небе.",
 		},
 		{
 			"name": "Мы ведём земледельца к вилле.",
@@ -450,7 +442,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolam ad villam ducimus. — Мы ведём земледельца к вилле.",
-			"test": "<…> Agricolam ad villam ducimus. — Мы ведём земледельца к вилле.",
+			"test": "Agricol<…> ad vill<…> ducimus. — Мы ведём земледельца к вилле.",
 		},
 		{
 			"name": "Мы приветствуем поэта с похвалой.",
@@ -458,7 +450,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetam cum laude salutamus. — Мы приветствуем поэта с похвалой.",
-			"test": "<…> Poetam cum laude salutamus. — Мы приветствуем поэта с похвалой.",
+			"test": "Poet<…> cum laude salutamus. — Мы приветствуем поэта с похвалой.",
 		},
 		{
 			"name": "Мы ставим воду в амфору.",
@@ -466,7 +458,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquam in amphoram ponimus. — Мы ставим воду в амфору.",
-			"test": "<…> Aquam in amphoram ponimus. — Мы ставим воду в амфору.",
+			"test": "Aqu<…> in amphoram ponimus. — Мы ставим воду в амфору.",
 		},
 		{
 			"name": "Я повёл девочку в школу.",
@@ -474,7 +466,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellam ad ludum duxi. — Я повёл девочку в школу.",
-			"test": "<…> Puellam ad ludum duxi. — Я повёл девочку в школу.",
+			"test": "Puell<…> ad ludum duxi. — Я повёл девочку в школу.",
 		},
 		{
 			"name": "Земледелец гуляет с друзьями.",
@@ -482,7 +474,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricola cum amicis ambulat. — Земледелец гуляет с друзьями.",
-			"test": "<…> Agricola cum amicis ambulat. — Земледелец гуляет с друзьями.",
+			"test": "Agricol<…> cum amic<…> ambulat. — Земледелец гуляет с друзьями.",
 		},
 		{
 			"name": "Поэт уходит из города.",
@@ -490,7 +482,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poeta ab urbe discedit. — Поэт уходит из города.",
-			"test": "<…> Poeta ab urbe discedit. — Поэт уходит из города.",
+			"test": "Poet<…> ab urb<…> discedit. — Поэт уходит из города.",
 		},
 		{
 			"name": "Вода идёт из тучи.",
@@ -498,7 +490,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aqua ab nube venit. — Вода идёт из тучи.",
-			"test": "<…> Aqua ab nube venit. — Вода идёт из тучи.",
+			"test": "Aqu<…> ab nub<…> venit. — Вода идёт из тучи.",
 		},
 		{
 			"name": "Земля освещается солнцем.",
@@ -506,7 +498,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terra a sole illustratur. — Земля освещается солнцем.",
-			"test": "<…> Terra a sole illustratur. — Земля освещается солнцем.",
+			"test": "Terr<…> a sol<…> illustratur. — Земля освещается солнцем.",
 		},
 		{
 			"name": "Девочка живёт с матерью.",
@@ -514,7 +506,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puella cum matre habitat. — Девочка живёт с матерью.",
-			"test": "<…> Puella cum matre habitat. — Девочка живёт с матерью.",
+			"test": "Puell<…> cum matr<…> habitat. — Девочка живёт с матерью.",
 		},
 		{
 			"name": "Звезда светит ночью.",
@@ -522,7 +514,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stella nocte lucet. — Звезда светит ночью.",
-			"test": "<…> Stella nocte lucet. — Звезда светит ночью.",
+			"test": "Stell<…> noct<…> lucet. — Звезда светит ночью.",
 		},
 		{
 			"name": "Земледелец гуляет с собаками.",
@@ -530,7 +522,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricola cum canibus ambulat. — Земледелец гуляет с собаками.",
-			"test": "<…> Agricola cum canibus ambulat. — Земледелец гуляет с собаками.",
+			"test": "Agricol<…> cum canibus ambulat. — Земледелец гуляет с собаками.",
 		},
 		{
 			"name": "Поэт восхваляется друзьями.",
@@ -538,7 +530,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poeta ab amicis laudatur. — Поэт восхваляется друзьями.",
-			"test": "<…> Poeta ab amicis laudatur. — Поэт восхваляется друзьями.",
+			"test": "Poet<…> ab amic<…> laudatur. — Поэт восхваляется друзьями.",
 		},
 		{
 			"name": "Вода течёт из источника.",
@@ -546,7 +538,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aqua ab fonte manat. — Вода течёт из источника.",
-			"test": "<…> Aqua ab fonte manat. — Вода течёт из источника.",
+			"test": "Aqu<…> ab font<…> manat. — Вода течёт из источника.",
 		},
 		{
 			"name": "Земля покрывается облаками.",
@@ -554,7 +546,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terra a nubibus tegitur. — Земля покрывается облаками.",
-			"test": "<…> Terra a nubibus tegitur. — Земля покрывается облаками.",
+			"test": "Terr<…> a nubibus tegitur. — Земля покрывается облаками.",
 		},
 		{
 			"name": "Девочка играет с сестрой.",
@@ -562,7 +554,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puella cum sorore ludit. — Девочка играет с сестрой.",
-			"test": "<…> Puella cum sorore ludit. — Девочка играет с сестрой.",
+			"test": "Puell<…> cum sorore ludit. — Девочка играет с сестрой.",
 		},
 		{
 			"name": "Звезда не затемняется луной.",
@@ -570,7 +562,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stella ab luna non obscuratur. — Звезда не затемняется луной.",
-			"test": "<…> Stella ab luna non obscuratur. — Звезда не затемняется луной.",
+			"test": "Stell<…> ab luna non obscuratur. — Звезда не затемняется луной.",
 		},
 		{
 			"name": "Земледелец работает с плугом.",
@@ -578,7 +570,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricola cum aratro laborat. — Земледелец работает с плугом.",
-			"test": "<…> Agricola cum aratro laborat. — Земледелец работает с плугом.",
+			"test": "Agricol<…> cum aratro laborat. — Земледелец работает с плугом.",
 		},
 		{
 			"name": "Поэт поёт с лирой.",
@@ -586,7 +578,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poeta cum lyra cantat. — Поэт поёт с лирой.",
-			"test": "<…> Poeta cum lyra cantat. — Поэт поёт с лирой.",
+			"test": "Poet<…> cum lyra cantat. — Поэт поёт с лирой.",
 		},
 		{
 			"name": "Горячая вода идёт из терм.",
@@ -594,7 +586,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aqua calida ab thermis venit. — Горячая вода идёт из терм.",
-			"test": "<…> Aqua calida ab thermis venit. — Горячая вода идёт из терм.",
+			"test": "Aqu<…> calid<…> ab thermis venit. — Горячая вода идёт из терм.",
 		},
 		{
 			"name": "Девочка учится у учителя.",
@@ -602,7 +594,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puella ab magistro discit. — Девочка учится у учителя.",
-			"test": "<…> Puella ab magistro discit. — Девочка учится у учителя.",
+			"test": "Puell<…> ab magistr<…> discit. — Девочка учится у учителя.",
 		},
 		// plural
 		{
@@ -611,7 +603,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolae in agris laborant. — Земледельцы работают в полях.",
-			"test": "<…> Agricolae in agris laborant. — Земледельцы работают в полях.",
+			"test": "Agricol<…> in agr<…> laborant. — Земледельцы работают в полях.",
 		},
 		{
 			"name": "Поэты пишут стихи.",
@@ -619,7 +611,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetae carmina scribunt. — Поэты пишут стихи.",
-			"test": "<…> Poetae carmina scribunt. — Поэты пишут стихи.",
+			"test": "Poet<…> carmin<…> scribunt. — Поэты пишут стихи.",
 		},
 		{
 			"name": "Земли прекрасны.",
@@ -627,7 +619,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terrae sunt pulchrae. — Земли прекрасны.",
-			"test": "<…> Terrae sunt pulchrae. — Земли прекрасны.",
+			"test": "Terr<…> sunt pulchr<…>. — Земли прекрасны.",
 		},
 		{
 			"name": "Воды холодные.",
@@ -635,7 +627,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquae frigidae sunt. — Воды холодные.",
-			"test": "<…> Aquae frigidae sunt. — Воды холодные.",
+			"test": "Aqu<…> frigid<…> sunt. — Воды холодные.",
 		},
 		{
 			"name": "Девочки играют в саду.",
@@ -643,7 +635,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellae in horto ludunt. — Девочки играют в саду.",
-			"test": "<…> Puellae in horto ludunt. — Девочки играют в саду.",
+			"test": "Puell<…> in hort<…> ludunt. — Девочки играют в саду.",
 		},
 		{
 			"name": "Звёзды светят на небе.",
@@ -651,7 +643,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellae in caelo lucent. — Звёзды светят на небе.",
-			"test": "<…> Stellae in caelo lucent. — Звёзды светят на небе.",
+			"test": "Stell<…> in cael<…> lucent. — Звёзды светят на небе.",
 		},
 		{
 			"name": "Семьи земледельцев большие.",
@@ -659,7 +651,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Familiae agricolarum magnae sunt. — Семьи земледельцев большие.",
-			"test": "<…> Familiae agricolarum magnae sunt. — Семьи земледельцев большие.",
+			"test": "Famili<…> agricol<…> magnae sunt. — Семьи земледельцев большие.",
 		},
 		{
 			"name": "Стихи поэтов прекрасны.",
@@ -667,7 +659,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Versus poetarum pulchri sunt. — Стихи поэтов прекрасны.",
-			"test": "<…> Versus poetarum pulchri sunt. — Стихи поэтов прекрасны.",
+			"test": "Versus poet<…> pulchri sunt. — Стихи поэтов прекрасны.",
 		},
 		{
 			"name": "Добродетели девочек восхваляются.",
@@ -675,7 +667,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Virtutes puellarum laudantur. — Добродетели девочек восхваляются.",
-			"test": "<…> Virtutes puellarum laudantur. — Добродетели девочек восхваляются.",
+			"test": "Virtutes puell<…> laudantur. — Добродетели девочек восхваляются.",
 		},
 		{
 			"name": "Названия земель длинные.",
@@ -683,7 +675,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Nomina terrarum longa sunt. — Названия земель длинные.",
-			"test": "<…> Nomina terrarum longa sunt. — Названия земель длинные.",
+			"test": "Nomina terr<…> longa sunt. — Названия земель длинные.",
 		},
 		{
 			"name": "Подруги девочек живут в Риме.",
@@ -691,7 +683,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Amicae puellarum Romae habitant. — Подруги девочек живут в Риме.",
-			"test": "<…> Amicae puellarum Romae habitant. — Подруги девочек живут в Риме.",
+			"test": "Amicae puell<…> Romae habitant. — Подруги девочек живут в Риме.",
 		},
 		{
 			"name": "Знаки звёзд видны на небе.",
@@ -699,7 +691,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Signa stellarum in caelo videntur. — Знаки звёзд видны на небе.",
-			"test": "<…> Signa stellarum in caelo videntur. — Знаки звёзд видны на небе.",
+			"test": "Signa stell<…> in caelo videntur. — Знаки звёзд видны на небе.",
 		},
 		{
 			"name": "Дома земледельцев находятся возле лесов.",
@@ -707,7 +699,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Domus agricolarum prope silvas sunt. — Дома земледельцев находятся возле лесов.",
-			"test": "<…> Domus agricolarum prope silvas sunt. — Дома земледельцев находятся возле лесов.",
+			"test": "Domus agricol<…> prope silvas sunt. — Дома земледельцев находятся возле лесов.",
 		},
 		{
 			"name": "Стихи поэтов находятся в книгах.",
@@ -715,7 +707,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Carmina poetarum in libris sunt. — Стихи поэтов находятся в книгах.",
-			"test": "<…> Carmina poetarum in libris sunt. — Стихи поэтов находятся в книгах.",
+			"test": "Carmina poet<…> in libr<…> sunt. — Стихи поэтов находятся в книгах.",
 		},
 		{
 			"name": "Начала земель неопределённые.",
@@ -723,7 +715,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Initia terrarum incerta sunt. — Начала земель неопределённые.",
-			"test": "<…> Initia terrarum incerta sunt. — Начала земель неопределённые.",
+			"test": "Initia terr<…> incerta sunt. — Начала земель неопределённые.",
 		},
 		{
 			"name": "Название вод — Тибр.",
@@ -731,7 +723,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Nomen aquarum Tiberis est. — Название вод — Тибр.",
-			"test": "<…> Nomen aquarum Tiberis est. — Название вод — Тибр.",
+			"test": "Nomen aqu<…> Tiberis est. — Название вод — Тибр.",
 		},
 		{
 			"name": "Дары земледельцев маленькие.",
@@ -739,7 +731,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Dona agricolarum parva sunt. — Дары земледельцев маленькие.",
-			"test": "<…> Dona agricolarum parva sunt. — Дары земледельцев маленькие.",
+			"test": "Dona agricol<…> parva sunt. — Дары земледельцев маленькие.",
 		},
 		{
 			"name": "Советы поэтов очень полезны.",
@@ -747,7 +739,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Consilia poetarum utilissima sunt. — Советы поэтов очень полезны.",
-			"test": "<…> Consilia poetarum utilissima sunt. — Советы поэтов очень полезны.",
+			"test": "Consilia poet<…> utilissima sunt. — Советы поэтов очень полезны.",
 		},
 		{
 			"name": "Помощи девочек необходимы.",
@@ -755,7 +747,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Auxilia puellarum necessaria sunt. — Помощи девочек необходимы.",
-			"test": "<…> Auxilia puellarum necessaria sunt. — Помощи девочек необходимы.",
+			"test": "Auxilia puell<…> necessaria sunt. — Помощи девочек необходимы.",
 		},
 		{
 			"name": "Книги девочек новые.",
@@ -763,7 +755,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Libri puellarum novi sunt. — Книги девочек новые.",
-			"test": "<…> Libri puellarum novi sunt. — Книги девочек новые.",
+			"test": "Libri puell<…> novi sunt. — Книги девочек новые.",
 		},
 		{
 			"name": "Здоровья земель желают.",
@@ -771,7 +763,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Salutes terrarum optantur. — Здоровья земель желают.",
-			"test": "<…> Salutes terrarum optantur. — Здоровья земель желают.",
+			"test": "Salutes terr<…> optantur. — Здоровья земель желают.",
 		},
 		{
 			"name": "Розы дарятся водам (как символу).",
@@ -779,7 +771,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Rosae aquarum donantur. — Розы дарятся водам (как символу).",
-			"test": "<…> Rosae aquarum donantur. — Розы дарятся водам (как символу).",
+			"test": "Rosae aqu<…> donantur. — Розы дарятся водам (как символу).",
 		},
 		{
 			"name": "Дар земледельцам маленький.",
@@ -787,7 +779,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Donum agricolis parvum est. — Дар земледельцам маленький.",
-			"test": "<…> Donum agricolis parvum est. — Дар земледельцам маленький.",
+			"test": "Donum agricol<…> parvum est. — Дар земледельцам маленький.",
 		},
 		{
 			"name": "Совет поэтам очень полезен.",
@@ -795,7 +787,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Consilium poetis utilissimum est. — Совет поэтам очень полезен.",
-			"test": "<…> Consilium poetis utilissimum est. — Совет поэтам очень полезен.",
+			"test": "Consilium poet<…> utilissimum est. — Совет поэтам очень полезен.",
 		},
 		{
 			"name": "Помощь девочкам необходима.",
@@ -803,7 +795,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Auxilium puellis necessarium est. — Помощь девочкам необходима.",
-			"test": "<…> Auxilium puellis necessarium est. — Помощь девочкам необходима.",
+			"test": "Auxilium puell<…> necessarium est. — Помощь девочкам необходима.",
 		},
 		{
 			"name": "Книга девочкам новая.",
@@ -811,7 +803,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Liber puellis novus est. — Книга девочкам новая.",
-			"test": "<…> Liber puellis novus est. — Книга девочкам новая.",
+			"test": "Liber puell<…> novus est. — Книга девочкам новая.",
 		},
 		{
 			"name": "Мы желаем здоровья землям.",
@@ -819,7 +811,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Salutem terris optamus. — Мы желаем здоровья землям.",
-			"test": "<…> Salutem terris optamus. — Мы желаем здоровья землям.",
+			"test": "Salutem terr<…> optamus. — Мы желаем здоровья землям.",
 		},
 		{
 			"name": "Я дарю розы водам.",
@@ -827,7 +819,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Rosas aquis dono. — Я дарю розы водам.",
-			"test": "<…> Rosas aquis dono. — Я дарю розы водам.",
+			"test": "Rosas aqu<…> dono. — Я дарю розы водам.",
 		},
 		{
 			"name": "Слова поэтов говорятся ученикам.",
@@ -835,7 +827,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Verba poetis discipulis dicuntur. — Слова поэтов говорятся ученикам.",
-			"test": "<…> Verba poetis discipulis dicuntur. — Слова поэтов говорятся ученикам.",
+			"test": "Verba poet<…> discipulis dicuntur. — Слова поэтов говорятся ученикам.",
 		},
 		{
 			"name": "Награды земледельцам большие.",
@@ -843,7 +835,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Praemia agricolis magna sunt. — Награды земледельцам большие.",
-			"test": "<…> Praemia agricolis magna sunt. — Награды земледельцам большие.",
+			"test": "Praemia agricol<…> magna sunt. — Награды земледельцам большие.",
 		},
 		{
 			"name": "Письма девочкам отправлены друзьями.",
@@ -851,7 +843,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Epistulae puellis ab amicis missae sunt. — Письма девочкам отправлены друзьями.",
-			"test": "<…> Epistulae puellis ab amicis missae sunt. — Письма девочкам отправлены друзьями.",
+			"test": "Epistulae puell<…> ab amicis missae sunt. — Письма девочкам отправлены друзьями.",
 		},
 		{
 			"name": "Звёздам возносятся благодарности.",
@@ -859,7 +851,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Gratiae stellis aguntur. — Звёздам возносятся благодарности.",
-			"test": "<…> Gratiae stellis aguntur. — Звёздам возносятся благодарности.",
+			"test": "Gratiae stell<…> aguntur. — Звёздам возносятся благодарности.",
 		},
 		{
 			"name": "Поэтам даются награды.",
@@ -867,7 +859,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Praemia poetis dantur. — Поэтам даются награды.",
-			"test": "<…> Praemia poetis dantur. — Поэтам даются награды.",
+			"test": "Praemia poet<…> dantur. — Поэтам даются награды.",
 		},
 		{
 			"name": "Я посылаю дар девочкам.",
@@ -875,7 +867,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Donum puellis mitto. — Я посылаю дар девочкам.",
-			"test": "<…> Donum puellis mitto. — Я посылаю дар девочкам.",
+			"test": "Donum puell<…> mitto. — Я посылаю дар девочкам.",
 		},
 		{
 			"name": "Советы земледельцам полезны.",
@@ -883,7 +875,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Consilia agricolis utilia sunt. — Советы земледельцам полезны.",
-			"test": "<…> Consilia agricolis utilia sunt. — Советы земледельцам полезны.",
+			"test": "Consilia agricol<…> utilia sunt. — Советы земледельцам полезны.",
 		},
 		{
 			"name": "Помощи землям необходимы.",
@@ -891,7 +883,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Auxilia terris necessaria sunt. — Помощи землям необходимы.",
-			"test": "<…> Auxilia terris necessaria sunt. — Помощи землям необходимы.",
+			"test": "Auxilia terr<…> necessaria sunt. — Помощи землям необходимы.",
 		},
 		{
 			"name": "Книги звёздам не нужны.",
@@ -899,7 +891,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Libri stellis non opus sunt. — Книги звёздам не нужны.",
-			"test": "<…> Libri stellis non opus sunt. — Книги звёздам не нужны.",
+			"test": "Libri stell<…> non opus sunt. — Книги звёздам не нужны.",
 		},
 		{
 			"name": "Мы говорим слова водам.",
@@ -907,7 +899,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Verba aquis dicimus. — Мы говорим слова водам.",
-			"test": "<…> Verba aquis dicimus. — Мы говорим слова водам.",
+			"test": "Verba aqu<…> dicimus. — Мы говорим слова водам.",
 		},
 		{
 			"name": "Я вижу земледельцев на дорогах.",
@@ -915,7 +907,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolas in viis video. — Я вижу земледельцев на дорогах.",
-			"test": "<…> Agricolas in viis video. — Я вижу земледельцев на дорогах.",
+			"test": "Agricolas in vi<…> video. — Я вижу земледельцев на дорогах.",
 		},
 		{
 			"name": "Я слышу поэтов на форумах.",
@@ -923,7 +915,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetas in foris audio. — Я слышу поэтов на форумах.",
-			"test": "<…> Poetas in foris audio. — Я слышу поэтов на форумах.",
+			"test": "Poet<…> in for<…> audio. — Я слышу поэтов на форумах.",
 		},
 		{
 			"name": "Мы пьём холодные воды.",
@@ -931,7 +923,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquas frigidas bibimus. — Мы пьём холодные воды.",
-			"test": "<…> Aquas frigidas bibimus. — Мы пьём холодные воды.",
+			"test": "Aqu<…> frigid<…> bibimus. — Мы пьём холодные воды.",
 		},
 		{
 			"name": "Мы находим новые земли.",
@@ -939,7 +931,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terras novas invenimus. — Мы находим новые земли.",
-			"test": "<…> Terras novas invenimus. — Мы находим новые земли.",
+			"test": "Terr<…> nov<…> invenimus. — Мы находим новые земли.",
 		},
 		{
 			"name": "Я позвал девочек в садах.",
@@ -947,7 +939,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellas in hortis vocavi. — Я позвал девочек в садах.",
-			"test": "<…> Puellas in hortis vocavi. — Я позвал девочек в садах.",
+			"test": "Puell<…> in hort<…> vocavi. — Я позвал девочек в садах.",
 		},
 		{
 			"name": "Мы наблюдаем большие звёзды на небе.",
@@ -955,7 +947,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellas magnas in caelo spectamus. — Мы наблюдаем большие звёзды на небе.",
-			"test": "<…> Stellas magnas in caelo spectamus. — Мы наблюдаем большие звёзды на небе.",
+			"test": "Stell<…> magn<…> in caelo spectamus. — Мы наблюдаем большие звёзды на небе.",
 		},
 		{
 			"name": "Мы ведём земледельцев к виллам.",
@@ -963,7 +955,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolas ad villas ducimus. — Мы ведём земледельцев к виллам.",
-			"test": "<…> Agricolas ad villas ducimus. — Мы ведём земледельцев к виллам.",
+			"test": "Agricol<…> ad vill<…> ducimus. — Мы ведём земледельцев к виллам.",
 		},
 		{
 			"name": "Мы приветствуем поэтов с похвалой.",
@@ -971,7 +963,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetas cum laude salutamus. — Мы приветствуем поэтов с похвалой.",
-			"test": "<…> Poetas cum laude salutamus. — Мы приветствуем поэтов с похвалой.",
+			"test": "Poet<…> cum laud<…> salutamus. — Мы приветствуем поэтов с похвалой.",
 		},
 		{
 			"name": "Мы ставим воды в амфоры.",
@@ -979,7 +971,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquas in amphoras ponimus. — Мы ставим воды в амфоры.",
-			"test": "<…> Aquas in amphoras ponimus. — Мы ставим воды в амфоры.",
+			"test": "Aqu<…> in amphor<…> ponimus. — Мы ставим воды в амфоры.",
 		},
 		{
 			"name": "Я повёл девочек в школы.",
@@ -987,7 +979,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellas ad ludos duxi. — Я повёл девочек в школы.",
-			"test": "<…> Puellas ad ludos duxi. — Я повёл девочек в школы.",
+			"test": "Puell<…> ad lud<…> duxi. — Я повёл девочек в школы.",
 		},
 		{
 			"name": "Мы видели звёзды ночью.",
@@ -995,7 +987,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellas nocte vidimus. — Мы видели звёзды ночью.",
-			"test": "<…> Stellas nocte vidimus. — Мы видели звёзды ночью.",
+			"test": "Stell<…> noct<…> vidimus. — Мы видели звёзды ночью.",
 		},
 		{
 			"name": "Я вижу работающих земледельцев.",
@@ -1003,7 +995,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolas laborantes video. — Я вижу работающих земледельцев.",
-			"test": "<…> Agricolas laborantes video. — Я вижу работающих земледельцев.",
+			"test": "Agricol<…> laborant<…> video. — Я вижу работающих земледельцев.",
 		},
 		{
 			"name": "Я слышал поющих поэтов.",
@@ -1011,7 +1003,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetas cantantes audivi. — Я слышал поющих поэтов.",
-			"test": "<…> Poetas cantantes audivi. — Я слышал поющих поэтов.",
+			"test": "Poet<…> cantant<…> audivi. — Я слышал поющих поэтов.",
 		},
 		{
 			"name": "Я приветствую смеющихся девочек.",
@@ -1019,7 +1011,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellas ridentes saluto. — Я приветствую смеющихся девочек.",
-			"test": "<…> Puellas ridentes saluto. — Я приветствую смеющихся девочек.",
+			"test": "Puell<…> rident<…> saluto. — Я приветствую смеющихся девочек.",
 		},
 		{
 			"name": "Мы наблюдаем текущие воды.",
@@ -1027,7 +1019,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquas fluentes spectamus. — Мы наблюдаем текущие воды.",
-			"test": "<…> Aquas fluentes spectamus. — Мы наблюдаем текущие воды.",
+			"test": "Aqu<…> fluent<…> spectamus. — Мы наблюдаем текущие воды.",
 		},
 		{
 			"name": "Мы любим вспаханные земли.",
@@ -1035,7 +1027,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terras aratas amamus. — Мы любим вспаханные земли.",
-			"test": "<…> Terras aratas amamus. — Мы любим вспаханные земли.",
+			"test": "Terr<…> arat<…> amamus. — Мы любим вспаханные земли.",
 		},
 		{
 			"name": "Земледельцы гуляют с собаками.",
@@ -1043,7 +1035,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolae cum canibus ambulant. — Земледельцы гуляют с собаками.",
-			"test": "<…> Agricolae cum canibus ambulant. — Земледельцы гуляют с собаками.",
+			"test": "Agricol<…> cum canib<…> ambulant. — Земледельцы гуляют с собаками.",
 		},
 		{
 			"name": "Поэты восхваляются друзьями.",
@@ -1051,7 +1043,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetae ab amicis laudantur. — Поэты восхваляются друзьями.",
-			"test": "<…> Poetae ab amicis laudantur. — Поэты восхваляются друзьями.",
+			"test": "Poet<…> ab amic<…> laudantur. — Поэты восхваляются друзьями.",
 		},
 		{
 			"name": "Воды текут из источников.",
@@ -1059,7 +1051,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquae ab fontibus manant. — Воды текут из источников.",
-			"test": "<…> Aquae ab fontibus manant. — Воды текут из источников.",
+			"test": "Aqu<…> ab font<…> manant. — Воды текут из источников.",
 		},
 		{
 			"name": "Земли покрываются облаками.",
@@ -1067,7 +1059,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Terrae a nubibus teguntur. — Земли покрываются облаками.",
-			"test": "<…> Terrae a nubibus teguntur. — Земли покрываются облаками.",
+			"test": "Terr<…> a nub<…> teguntur. — Земли покрываются облаками.",
 		},
 		{
 			"name": "Девочки играют с сёстрами.",
@@ -1075,7 +1067,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellae cum sororibus ludunt. — Девочки играют с сёстрами.",
-			"test": "<…> Puellae cum sororibus ludunt. — Девочки играют с сёстрами.",
+			"test": "Puell<…> cum soror<…> ludunt. — Девочки играют с сёстрами.",
 		},
 		{
 			"name": "Звёзды не затемняются луной.",
@@ -1083,7 +1075,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Stellae ab luna non obscurantur. — Звёзды не затемняются луной.",
-			"test": "<…> Stellae ab luna non obscurantur. — Звёзды не затемняются луной.",
+			"test": "Stell<…> ab lun<…> non obscurantur. — Звёзды не затемняются луной.",
 		},
 		{
 			"name": "Земледельцы работают с плугами.",
@@ -1091,7 +1083,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolae cum aratris laborant. — Земледельцы работают с плугами.",
-			"test": "<…> Agricolae cum aratris laborant. — Земледельцы работают с плугами.",
+			"test": "Agricol<…> cum aratr<…> laborant. — Земледельцы работают с плугами.",
 		},
 		{
 			"name": "Поэты поют с лирами.",
@@ -1099,7 +1091,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetae cum lyris cantant. — Поэты поют с лирами.",
-			"test": "<…> Poetae cum lyris cantant. — Поэты поют с лирами.",
+			"test": "Poet<…> cum lyr<…> cantant. — Поэты поют с лирами.",
 		},
 		{
 			"name": "Горячие воды идут из терм.",
@@ -1107,7 +1099,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquae calidae ab thermis veniunt. — Горячие воды идут из терм.",
-			"test": "<…> Aquae calidae ab thermis veniunt. — Горячие воды идут из терм.",
+			"test": "Aqu<…> calid<…> ab ther<…>s veniunt. — Горячие воды идут из терм.",
 		},
 		{
 			"name": "Девочки учатся у учителей.",
@@ -1115,7 +1107,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellae ab magistris discunt. — Девочки учатся у учителей.",
-			"test": "<…> Puellae ab magistris discunt. — Девочки учатся у учителей.",
+			"test": "Puell<…> ab magistr<…> discunt. — Девочки учатся у учителей.",
 		},
 		{
 			"name": "Земледельцы уходят от земель.",
@@ -1123,7 +1115,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolae a terris discedunt. — Земледельцы уходят от земель.",
-			"test": "<…> Agricolae a terris discedunt. — Земледельцы уходят от земель.",
+			"test": "Agricol<…> a terr<…> discedunt. — Земледельцы уходят от земель.",
 		},
 		{
 			"name": "Поэты вернулись со славой.",
@@ -1131,7 +1123,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Poetae cum gloria redierunt. — Поэты вернулись со славой.",
-			"test": "<…> Poetae cum gloria redierunt. — Поэты вернулись со славой.",
+			"test": "Poet<…> cum glori<…> redierunt. — Поэты вернулись со славой.",
 		},
 		{
 			"name": "Девочки приходят из садов.",
@@ -1139,7 +1131,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Puellae ex hortis veniunt. — Девочки приходят из садов.",
-			"test": "<…> Puellae ex hortis veniunt. — Девочки приходят из садов.",
+			"test": "Puella<…>ex hort<…> veniunt. — Девочки приходят из садов.",
 		},
 		{
 			"name": "Воды текут по дорогам.",
@@ -1147,15 +1139,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Aquae per vias fluunt. — Воды текут по дорогам.",
-			"test": "<…> Aquae per vias fluunt. — Воды текут по дорогам.",
-		},
-		{
-			"name": "Звёзды светят ночью.",
-			"id": "latinN_1_AB_p_5b37e0d2",
-			"grade": "latin_noun",
-			"letters": ["1"],
-			"full": "Stellae nocte lucent. — Звёзды светят ночью.",
-			"test": "<…> Stellae nocte lucent. — Звёзды светят ночью.",
+			"test": "Aqu<…> per vi<…> fluunt. — Воды текут по дорогам.",
 		},
 		{
 			"name": "Земледельцы устали от работы.",
@@ -1163,7 +1147,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Agricolae ab opere defessi sunt. — Земледельцы устали от работы.",
-			"test": "<…> Agricolae ab opere defessi sunt. — Земледельцы устали от работы.",
+			"test": "Agricol<…> ab oper<…> defessi sunt. — Земледельцы устали от работы.",
 		}		
 	);
 }
