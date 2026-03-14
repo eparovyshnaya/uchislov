@@ -242,7 +242,7 @@ export function withLatinNoun1Tests() {
 			"grade": "latin_noun",
 			"letters": ["1"],
 			"full": "Rosas puellae dono. — Я дарю розы девочке.",
-			"test": "Rosas puell<…> dono. — Я дарю розы девочке.",
+			"test": "Ros<…> puell<…> dono. — Я дарю розы девочке.",
 		},
 		{
 			"name": "Мир для девочки — наилучший.",
@@ -571,6 +571,14 @@ export function withLatinNoun1Tests() {
 			"letters": ["1"],
 			"full": "Agricola cum aratro laborat. — Земледелец работает с плугом.",
 			"test": "Agricol<…> cum aratro laborat. — Земледелец работает с плугом.",
+		},
+		{
+			"name": "Мать гуляет с девочкой.",
+			"id": "latinN_1_AB_s_14514713_1",
+			"grade": "latin_noun",
+			"letters": ["1"],
+			"full": "Mater cum puella ambulat. — Мать гуляет с девочкой.",
+			"test": "Mater cum puell<…> ambulat. — Мать гуляет с девочкой."
 		},
 		{
 			"name": "Поэт поёт с лирой.",
@@ -1148,6 +1156,6 @@ export function withLatinNoun1Tests() {
 			"letters": ["1"],
 			"full": "Agricolae ab opere defessi sunt. — Земледельцы устали от работы.",
 			"test": "Agricol<…> ab oper<…> defessi sunt. — Земледельцы устали от работы.",
-		}		
+		}
 	);
 }

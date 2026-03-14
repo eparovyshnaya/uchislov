@@ -1,0 +1,53 @@
++ Gen 
+Nomen puellae pulchrae est Julia. — Имя красивой девочки — Юлия.
+
+Memoria agricolae bona est. — Память земледельца хорошая.
+
+Tectum villae novae rubrum est. — Крыша нового дома красная.
+
+Longitudo viae magna est. — Длина дороги большая.
+
+Initium scholae matutinum est. — Начало школы утреннее.
+
++ Dat
+Puellis rosas do. — Я даю девочкам розы.
+
+Agricolis fabulam narro. — Я рассказываю земледельцам сказку.
+
+Villis aquam portamus. — Мы несём воду к домам.
+
+Viis signa ponunt. — Они ставят знаки у дорог.
+
+Scholis libros tradimus. — Мы передаём книги школам.
++ Acc
+Ad aquas calidas senes ambulant. — Старики идут к тёплым водам.
+
+Ante villas rusticas agri latissimi sunt. — Перед загородными домами находятся очень широкие поля.
+
+Post scholas nova ludicra parantur. — После школ готовятся новые игры.
+
+Per vias urbis multae raedae currunt. — По улицам города мчатся многие экипажи.
+
+Circum scaenas magnas populus stant. — Вокруг больших сцен стоит народ.
+
+Inter patellas argenteas cibi optimi ponuntur. — Между серебряными тарелками ставятся лучшие блюда.
+
+Contra agricolas irati milites pugnant. — Против земледельцев сражаются сердитые солдаты.
+
+Prope puellas cantores canunt. — Около девочек поют певцы.
++ Abl
+Ab aquis frigidis pueri fugerunt. — Мальчики убежали от холодных вод.
+
+Sine villis rusticis regiones desertae videntur. — Без загородных домов области кажутся пустынными.
+
+Ex viis longis viatores descendunt. — С длинных дорог путешественники сходят.
+
+Prae puellis bellis omnes tacent. — Перед красивыми девочками все молчат.
+
+Cum agricolis bonis senes loquuntur. — Со добрыми земледельцами старики разговаривают.
+
+In scaenis novis comoediae aguntur. — На новых сценах разыгрываются комедии.
+
+De scholis magnis discipuli colloquia habent. — О больших школах ученики ведут беседы.
+
+E patellis parvis cibi edebantur. — Из маленьких тарелок ели блюда.

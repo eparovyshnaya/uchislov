@@ -1,0 +1,55 @@
++ Gen
+Nomen puellae pulchrae est Julia. — Имя красивой девочки — Юлия.
+
+Memoria agricolae bona est. — Память земледельца хорошая.
+
+Tectum villae novae rubrum est. — Крыша нового дома красная.
+
+Longitudo viae magna est. — Длина дороги большая.
+
+Initium scholae matutinum est. — Начало школы утреннее.
+
++ Dat
+Puellae rosas dedi. — Я дал девочке розы.
+
+Agricolae fabulam narravisti. — Ты рассказал земледельцу сказку.
+
+Villae aquam portabimus. — Мы будем нести воду к дому.
+
+Viae signum ponet. — Он поставит знак у дороги.
+
+Scholae librum mitte! — Пошли книгу в школу!
+
++ Acc
+Ad aquam frigidam puer currit. — Мальчик бежит к холодной воде.
+
+Ante villam magnam rosae florent. — Перед большим домом цветут розы.
+
+Post scholam puella domum festinat. — После школы девочка спешит домой.
+
+Per viam longam iter facimus. — Мы совершаем путешествие по длинной дороге.
+
+Circum scaenam multi spectatores stant. — Вокруг сцены стоят многие зрители.
+
+Inter patellas novas cibus ponitur. — Между новыми тарелками ставится еда.
+
+Contra agricolam irati homines loquuntur. — Против земледельца сердитые люди говорят.
+
+Prope puellam canis albus sedet. — Около девочки сидит белый пёс.
+
++ Abl
+Ab aqua frigida puer fugit. — Мальчик убегает от холодной воды.
+
+Sine villa rustica vita difficilis est. — Без загородного дома жизнь трудна.
+
+Ex via longa viator descendit. — Путешественник сходит с длинной дороги.
+
+Prae puella bella omnes silent. — Перед красивой девочкой все молчат.
+
+Cum agricola bono senex loquitur. — Со добрым земледельцем старик разговаривает.
+
+In scaena nova comoedia agitur. — На новой сцене разыгрывается комедия.
+
+De schola magna discipuli colloquium habent. — О большой школе ученики ведут беседу.
+
+E patella parva cibus edebatur. — Из маленькой тарелки ели пищу.
