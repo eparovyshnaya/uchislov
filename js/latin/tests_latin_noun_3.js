@@ -16,6 +16,12 @@
 * their affiliate or an authorized dealer has been advised of the possibility of such damages. 
 * 
 */
+/**
+ * N: urbs, caro
+ * V: coquere+Acc; condere+Acc; habere+Acc
+ * PN: ad+Acc
+ *     in+Abl (where | in urbe) 
+ */
 
 export function withLatinNoun3Tests() {
 	data.data.push(
@@ -27,6 +33,46 @@ export function withLatinNoun3Tests() {
 			"letters": ["3"],
 			"full": "Leo in silva habitat. — Лев обитает в лесу.",
 			"test": "<…> Leo in silva habitat. — Лев обитает в лесу.",
+		},
+		{
+			"name": "Вы готовите мясо.",
+			"id": "latinN_3_Acc_s_49c2f000",
+			"grade": "latin_noun",
+			"letters": ["3"],
+			"full": "Carnem coquitis. — Вы готовите мясо.",
+			"test": "Car<…> coquitis. — Вы готовите мясо.",
+		},
+		{
+			"name": "Ты строишь город.",
+			"id": "latinN_3_Acc_s_49c2f001",
+			"grade": "latin_noun",
+			"letters": ["3"],
+			"full": "Tu urbem condis. — Ты строишь город.",
+			"test": "Tu urb<…> condis. — Ты строишь город",
+		},
+		{
+			"name": "Мне нравятся гостиницы в городе.",
+			"id": "latinN_3_Abl_s_49c2f001",
+			"grade": "latin_noun",
+			"letters": ["3"],
+			"full": "Cauponae in urbe mihi plcaet. — Мне нравятся гостиницы в городе",
+			"test": "Cauponae in urbe mihi plcaet. — Мне нравятся гостиницы в городе",
+		},
+		{
+			"name": "У нас есть соленое мясо.",
+			"id": "latinN_3_Acc_s_49c2f002",
+			"grade": "latin_noun",
+			"letters": ["3"],
+			"full": "Carnem salsam habemus. — У нас есть соленое мясо.",
+			"test": "Carn<…> sals<…> habemus. — У нас есть соленое мясо.",
+		},
+		{
+			"name": "Ты строишь город.",
+			"id": "latinN_3_Acc_s_49c2f001",
+			"grade": "latin_noun",
+			"letters": ["3"],
+			"full": "Tu urbem condis. — Ты строишь город.",
+			"test": "Tu urb<…> condis. — Ты строишь город",
 		},
 		{
 			"name": "Отец работает в саду.",

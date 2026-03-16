@@ -21,6 +21,22 @@ export function withLatinNoun2Tests() {
 	data.data.push(
 		// singular
 		{
+			"name": "У нее есть чашка.",
+			"id": "latinN_2_AC_s_41cf5311",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Ea poculum habet. — У нее есть тарелка.",
+			"test": "Ea pocul<…> habet. — У нее есть чашка.",
+		},
+		{
+			"name": "У нее есть чашка.",
+			"id": "latinN_2_AC_s_41cf5312",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Garum non bibs. — Ты не пьешь рыбный соус.",
+			"test": "Gar<…> non bibs. — Ты не пьешь рыбный соус.",
+		},
+		{
 			"name": "Раб работает в вилле.",
 			"id": "latinN_2_NO_s_49c2faae",
 			"grade": "latin_noun",
@@ -1124,6 +1140,14 @@ export function withLatinNoun2Tests() {
 			"letters": ["2"],
 			"full": "Donis a matribus acceptis gaudent. — Они радуются подаркам, полученным от матерей.",
 			"test": "<…> Donis a matribus acceptis gaudent. — Они радуются подаркам, полученным от матерей.",
+		},
+		{
+			"name": "Сколько у вас столовых?",
+			"id": "latinN_2_Abl_p_41cf53110",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Quot triclinia habetis. — Сколько у вас столовых?.",
+			"test": "Quot triclini<…> habetis. — Сколько у вас столовых?.",
 		}
 	);
 }
