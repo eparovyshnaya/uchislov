@@ -17,8 +17,40 @@
 * 
 */
 
+/*
+ -um; neutral: 
+	 s [um, i, o, um, o, um]  
+	 p [a, orum, is, a, is, a]
+	 
+	 
+ */
+
 export function withLatinNoun2Tests() {
 	data.data.push(
+		{
+			"name": "Мы подсчитвваем цену.",
+			"id": "latinN_2_AC_s_41cf5313",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Pretium aestimamus. — Мы подсчитвваем цену.",
+			"test": "Preti<…> aestimamus. — Мы подсчитвваем цену.",
+		},
+		{
+			"name": "Покупатель хочет подсчитввать цену.",
+			"id": "latinN_2_AC_s_41cf5314",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Emptor pretium aestimare vult. — Покупатель хочет подсчитввать цену.",
+			"test": "Emptor preti<…> aestimare vult. — Покупатель хочет подсчитввать цену.",
+		},
+		{
+			"name": "Вы, торговцы, прикибываете цены.",
+			"id": "latinN_2_AC_s_41cf5315",
+			"grade": "latin_noun",
+			"letters": ["2"],
+			"full": "Vos mercatores pretia aestimatis. — Вы, торговцы, прикибываете цены.",
+			"test": "Vos mercatores preti<…> aestimatis. — Вы, торговцы, прикибываете цены.",
+		},
 		// singular
 		{
 			"name": "У нее есть чашка.",
@@ -29,7 +61,7 @@ export function withLatinNoun2Tests() {
 			"test": "Ea pocul<…> habet. — У нее есть чашка.",
 		},
 		{
-			"name": "У нее есть чашка.",
+			"name": "Ты не пьешь рыбный соус.",
 			"id": "latinN_2_AC_s_41cf5312",
 			"grade": "latin_noun",
 			"letters": ["2"],
