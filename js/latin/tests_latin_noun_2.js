@@ -48,8 +48,8 @@ export function withLatinNoun2Tests() {
 			"id": "latinN_2_AC_s_41cf5315",
 			"grade": "latin_noun",
 			"letters": ["2"],
-			"full": "Vos mercatores pretia aestimatis. — Вы, торговцы, прикибываете цены.",
-			"test": "Vos mercatores preti<…> aestimatis. — Вы, торговцы, прикибываете цены.",
+			"full": "Vos mercatores pretia aestimatis. — Вы, торговцы, прикидываете цены.",
+			"test": "Vos mercatores preti<…> aestimatis. — Вы, торговцы, прикидываете цены.",
 		},
 		// singular
 		{
