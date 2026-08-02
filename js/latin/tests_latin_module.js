@@ -22,6 +22,7 @@ import { withLatinNoun2Tests } from './tests_latin_noun_2.js';
 import { withLatinNoun3Tests } from './tests_latin_noun_3.js';
 import { withLatinNoun4Tests } from './tests_latin_noun_4.js';
 import { withLatinNoun5Tests } from './tests_latin_noun_5.js';
+import { withJulia } from './tests_julia.js';
 
 // tests for latin ending of nouns: 5 declensions, singular and plural, 5 cases (nominative, genetive, dative, accusative, ablative)
 withLatinNoun1Tests();
@@ -29,3 +30,7 @@ withLatinNoun2Tests();
 withLatinNoun3Tests();
 withLatinNoun4Tests();
 withLatinNoun5Tests();
+
+// texts from "Julia, a Latin reading book reatten by Maud Reed"
+withJulia();
+
