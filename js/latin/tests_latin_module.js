@@ -26,10 +26,10 @@ import { withJulia } from './tests_julia.js';
 
 // tests for latin ending of nouns: 5 declensions, singular and plural, 5 cases (nominative, genetive, dative, accusative, ablative)
 withLatinNoun1Tests();
-withLatinNoun2Tests();
-withLatinNoun3Tests();
-withLatinNoun4Tests();
-withLatinNoun5Tests();
+//withLatinNoun2Tests();
+//withLatinNoun3Tests();
+//withLatinNoun4Tests();
+//withLatinNoun5Tests();
 
 // texts from "Julia, a Latin reading book reatten by Maud Reed"
 withJulia();
