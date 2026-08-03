@@ -80,17 +80,72 @@ export function withJulia() {
 			"id": "julia-iii-1",
 			"grade": "latin_simple",
 			"letters": ["1", "I"],
-			"full": "",
-			"test": ""
+			"full": "Argicola ad casam venit. Filia parva non est in casa. Tum agricola 'Iuila,' exclamat, 'filia mea, ubi es?' Iterum Iuliam vocat, sed frustra, - nulla est puella. Cena non est in mensa parAta, nec rosae in mensa sunt. Tum ad oram maritimam properat et procul naviculam albam spectat.",
+			"test": "Argicola ad cas<…> venit. Filia parva non <…> in cas<…>. Tum agricola 'Iuila,' exclama<…>, 'filia mea, ubi <…>?' Iterum Iuli<…> voca<…>, sed frustra, - nulla <…> puella. Cena non est <…> mens<…> parAt<…>, nec ros<…> <…> mens<…> sunt. Tum ad or<…> maritim<…> propera<…> et procul navicul<…> alb<…> specta<…>."
 		},
 		{
-			"name": "Julia III, ",
-			"id": "julia-iii-",
+			"name": "Julia III, 2",
+			"id": "julia-iii-2",
 			"grade": "latin_simple",
 			"letters": ["1", "I"],
-			"full": "",
-			"test": ""
+			"full": "Ad nautarum casas properat. Nautarum filiae perterritae, 'Cum piratis,' inquiunt, 'est Iulia tua.'. Magna est ira agricolae. Galeam et hastam raptat. Nautae naviculam suam agricolae dant. Nautae quoque galeas et hastas raptant, et cum argicola ad piratarum naviculam properant.",
+			"test": "Ad naut<…> cas<…> propera<…>. Naut<…> filiae perterrit<…>, 'Cum pirat<…>,' inqu<…>, 'est Iulia tua.'. Magna est ira agricol<…>. Gale<…> et hast<…> rapta<…>. Naut<…> navicul<…> su<…> agricol<…> da<…>. Naut<…> quoque gale<…> et hast<…> rapta<…>, et cum argicol<…> ad pirat<…> navicul<…> propera<…>."
+		},
+		{
+			"name": "Julia III, 3",
+			"id": "julia-iii-3",
+			"grade": "latin_simple",
+			"letters": ["1", "I"],
+			"full": "Tum agricola piratas vocat; 'Ubi,' inquit, 'est filia mea?' Piratae, 'Filia tua', inquiunt, 'in navicula nostra est.' Tum agricola pecuniam multam piratis dat. Piratae Iuliam ad agricolae naviculam portant.",
+			"test": "Tum agricola pirat<…> voca<…>; 'Ubi,' inquit, 'est filia mea?' Piratae, 'Filia tua', inqu<…>, 'in navicul<…> nostr<…> est.' Tum agricola pecuni<…> mult<…> pirat<…> dat. Piratae Iuli<…> ad agricol<…> navicul<…> portan<…>."
+		},
+		{
+			"name": "Julia IV, 1",
+			"id": "julia-iv-1",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "I"],
+			"full": "Laeta est Iulia quod iterum casam parvam cum agricola habitat. Sed Iulia puella duodecim annorum iam est. Itaque agricola filiae suae tabulas dat. Pecuniam quoque ludi magistro dat.",
+			"test": "Laet<…> est Iulia quod iterum cas<…> parv<…> cum agricol<…> habita<…>. Sed Iulia puella duodecim ann<…> iam est. Itaque agricola fili<…> su<…> tabul<…> da<…>. Pecuni<…> quoque lud<…> magistr<…> da<…>."
+		},
+		{
+			"name": "Julia IV, 11",
+			"id": "julia-iv-11",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "I"],
+			"full": "Cotidie Iulia ad ludum per agros ambulat. Multi iuvenci in agris sunt sed imparvida est puella. Tabulas ad ludum iulia portat. In tabulis litterae multae sunt. Ludi magister Iuliam laudat quod litteras bene cotidie recitat.",
+			"test": "Cotidie Iulia ad lud<…> per agr<…> ambula<…>. Mult<…> iuvenc<…> in agr<…> sunt, sed imparvid<…> est puella. Tabul<…> ad lud<…> iulia porta<…>. In tabul<…> litter<…> mult<…> sunt. Lud<…> magister Iuli<…> laudat quod litter<…> bene cotidie recita<…>."
+		},
+		{
+			"name": "Julia IV, 2",
+			"id": "julia-iv-2",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "i"],
+			"full": "In ludo multi pueri, multae puellae cum Iulia sunt. Magister ludum bene gubernat. Industris pueris magister libros pulchros dat. Pigros malosque pueros non laudat sed culpat. Magna est ira magistri quod pueri pigri litteras non bene recitant.",
+			"test": "In lud<…> mult<…> puer<…>, mult<…> puell<…> cum Iuli<…> sunt. Magister lud<…> bene guberna<…>. Industr<…> puer<…> magister libr<…> pulchr<…> da<…>. Pigr<…> mal<…>que puer<…> non lauda<…> sed culpa<…>. Magna est ira magistr<…> quod puer<…> pigr<…> litter<…> non bene recita<…>."
+		},
+		{
+			"name": "Julia IV, 3",
+			"id": "julia-iv-3",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "I"],
+			"full": "Itaque pueri pirgi in angulis stant. Multae sunt lacrimae puerorum malorum. Itaque pueri industri sunt et litteras bene recitant.",
+			"test": "Itaque puer<…> pirg<…> in angul<…> stant. Mult<…> sunt lacrim<…> puer<…> mal<…>. Itaque puer<…> industr<…> sunt et litter<…> bene recita<…>."
+		},
+		{
+			"name": "Julia IV, 4",
+			"id": "julia-iv-4",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "I"],
+			"full": "Iulia prandium ad ludum cotidie portat quod longa est via. In agris prandium est Iuliae gratum.",
+			"test": "Iulia prandium ad lud<…> cotidie porta<…> quod long<…> est vi<…>. In agr<…> prandium est Iuli<…> gratum."
+		},
+		{
+			"name": "Julia IV, 5",
+			"id": "julia-iv-5",
+			"grade": "latin_simple",
+			"letters": ["1", "2", "I"],
+			"full": "Multas fabulas pueris et puellis magister benignus in ludo narrat. Nunc de Britannia, nunc de longiquis terris fabulas narrat. Gratae pueris et puellis sunt fabulae. Nunc igitur in ludo non solum Iuliae sed multis etiam pueris et puellis fabulas narro.",
+			"test": "Mult<…> fabul<…> puer<…> et puell<…> magister benign<…> in lud<…> narra<…>. Nunc de Britannia, nunc de longiqu<…> terr<…> fabul<…> narra<…>. Gratae pueris et puellis sunt fabulae. Nunc igitur in lud<…> non solum Iuli<…> sed mult<…> etiam puer<…> et puell<…> fabul<…> narro."
 		}
 	);
-
 }
